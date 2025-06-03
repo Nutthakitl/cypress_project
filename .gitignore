@@ -1,0 +1,23 @@
+node_modules/
+package-lock.json
+
+# Cypress output
+cypress/screenshots/
+cypress/videos/
+
+# Environment secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+
+# Coverage
+coverage/
