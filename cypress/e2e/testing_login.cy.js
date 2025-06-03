@@ -1,5 +1,6 @@
-describe('template spec', () => {
-  it('passes', () => {
-    cy.visit('https://example.cypress.io')
+describe('testing open website', () => {
+  it('testing open website', () => {
+    cy.visit('https://example.com')
+    cy.contains('Example Domain')
   })
 })
